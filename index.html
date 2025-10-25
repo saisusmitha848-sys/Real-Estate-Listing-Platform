@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Real Estate Listing Platform</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🏠 DreamHomes</h1>
+    <p>Find your perfect home or rental</p>
+  </header>
+
+  <section class="filters">
+    <h2>Search Properties</h2>
+    <form>
+      <select>
+        <option value="">Property Type</option>
+        <option>Apartment</option>
+        <option>Villa</option>
+        <option>Independent House</option>
+      </select>
+      <select>
+        <option value="">Location</option>
+        <option>Hyderabad</option>
+        <option>Bangalore</option>
+        <option>Chennai</option>
+      </select>
+      <select>
+        <option value="">Price Range</option>
+        <option>Below ₹50 Lakhs</option>
+        <option>₹50L - ₹1Cr</option>
+        <option>Above ₹1Cr</option>
+      </select>
+      <button type="submit">Filter</button>
+    </form>
+  </section>
+
+  <section class="properties">
+    <h2>Available Properties</h2>
+    <div class="property-list">
+      <div class="property-card">
+        <img src="https://images.unsplash.com/photo-1560184897-67f4e5c7c1c5" alt="Property Image">
+        <h3>Luxury Villa</h3>
+        <p><strong>Location:</strong> Hyderabad</p>
+        <p><strong>Price:</strong> ₹1.2 Cr</p>
+        <p>Spacious 4BHK villa with garden and pool.</p>
+        <div class="admin-actions">
+          <button class="edit">Edit</button>
+          <button class="delete">Delete</button>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Property Image">
+        <h3>Modern Apartment</h3>
+        <p><strong>Location:</strong> Bangalore</p>
+        <p><strong>Price:</strong> ₹85 Lakhs</p>
+        <p>2BHK apartment in a gated community with amenities.</p>
+        <div class="admin-actions">
+          <button class="edit">Edit</button>
+          <button class="delete">Delete</button>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <img src="https://images.unsplash.com/photo-1572120360610-d971b9b78825" alt="Property Image">
+        <h3>Cozy Rental Home</h3>
+        <p><strong>Location:</strong> Chennai</p>
+        <p><strong>Price:</strong> ₹25,000/month</p>
+        <p>1BHK furnished rental home near city center.</p>
+        <div class="admin-actions">
+          <button class="edit">Edit</button>
+          <button class="delete">Delete</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 DreamHomes. All rights reserved.</p>
+  </footer>
+</body>
+</html>
